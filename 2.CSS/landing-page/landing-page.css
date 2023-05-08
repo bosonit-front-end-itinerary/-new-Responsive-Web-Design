@@ -1,0 +1,53 @@
+/* :root{
+
+} */
+
+body{
+    background-color: rgb(210, 156, 228);
+    font-family: 'Merriweather', serif;
+    color: linen;
+}
+
+header {
+    display: block;
+}
+
+#nav-bar {
+    border: 1px solid yellow;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    color: linen;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#nav-bar li {
+    list-style-type: none;
+}
+
+#navbar > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#nav-bar li .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 450;
+    color: rgb(74, 11, 91);
+    transition: 0.5s ease-in-out;
+    
+}
+
+#nav-bar li .nav-link:hover {
+    color: rgb(241, 206, 249);
+}
