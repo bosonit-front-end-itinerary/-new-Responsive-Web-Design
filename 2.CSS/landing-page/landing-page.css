@@ -1,15 +1,15 @@
 /* :root{
-
 } */
 
-body{
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+
     background-color: rgb(210, 156, 228);
     font-family: 'Merriweather', serif;
     color: linen;
-    margin: 0;
 }
-
-
 
 .light {
     animation: glow 1s ease-in-out infinite alternate;
@@ -89,6 +89,10 @@ li{
     color: rgb(241, 206, 249);
 }
 
+#burger-menu{
+    display: none;
+}
+
 /*STARTS ABOUT SECTION*/
 
 .about-container {
@@ -112,12 +116,10 @@ li{
     margin-right: 120px;
 }
 
-.about > img {
-    border: 1px solid pink;
+#about > img {
     position: relative;
     right: -10%;
-    height: 8rem;
-    width: auto;
+    height: 1rem!important;
 }
 
 /*STARTS PORTFOLIO SECTION*/
@@ -255,4 +257,38 @@ footer > span {
     font-size: 0.8em;
     color: #444;
     padding: 0 10px;
+}
+
+/*STARTS MOBILE MEDIA QUERY*/
+
+@media screen and (max-width:992px){
+    .header-left h3{
+        display: none;
+    }
+
+    .text-box {
+        width: 20px;
+        height: 20rem;
+        text-align: justify;
+        position: relative;
+        top: 18rem;
+        right: 1.5rem;
+    }
+
+    #about img{
+        width: 15rem;
+        position: relative;
+        right: 0.5rem;
+    }
+
+    #about{
+        height: 33rem;
+    }
+
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
