@@ -14,29 +14,130 @@
 <body>
     <header id="header">
         <div class="header-left">
-            <img src="noa-logo.png" id="header-img" alt="noa's professional logo">
+            <img src="./img/noa-logo.png" id="header-img" alt="noa's professional logo">
             <h3>Noa Trujillo's Portfolio</h3>
         </div>
         
         <nav id="nav-bar">
             <ul class="header-right">
-                <li>
-                    <a class="nav-link" href="#about">About </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#portfolio">Portfolio </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#contact">Contact </a>
-                </li>
+                <li><a class="nav-link" href="#about">About </a></li>
+                <li><a class="nav-link" href="#portfolio">Portfolio </a></li>
+                <li><a class="nav-link" href="#contact">Contact </a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="video-box">
-            <h2>Inspirational Women Developer of the month:</h2>
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/4QoU1omIoX8"></iframe>
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <h2 class="welcome intro light">It's me, Noa!</h2>
+                    <div id="about" class="welcome container">
+                        <p class="welcome text">
+                            Hey there! My name's Noa and I'm a Fullstack Web Developer interested to take your projects to the next level. I'm a passionate for technology with a good eye for design and very determined.
+                        </p>
+                        <img src="./img/profile-pic.png" alt="Noa's profile picture">
+                    </div>
+                </div>
+
+                </div>
+            </section>
+            <h2>Portfolio</h2>
+            <section id="projects">
+                <div class="project" id="project-one">
+                    <div class="title">Hilodoble Ecommerce</div>
+                    <img src="./img/portfolio-1.PNG" alt="project one">
+                    <ol>
+                        <li>Some Stacks: Laravel+React</li>
+                        <li>Mobile First</li>
+                        <li>Creation+connection+consumption API-REST</li>
+                        <li>Components nesting</li>
+                        <li>PhpMyAdmin + Postman</li>
+                    </ol>
+                    <button class="btn">See more</button>
+                </div>
+                <div class="project" id="project-two">
+                    <div class="title">Nevermore Academy</div>
+                    <img src="./img/portfolio-2.PNG" alt="project two">
+                    <ol>
+                        <li>Mobile First</li>
+                        <li>Some Stacks: Laravel+blades</li>
+                        <li>Login+resgister implemented</li>
+                        <li>Students' Trimestral Table</li>
+                    </ol>
+                    <button class="btn">See more</button>
+                </div>
+                <div class="project" id="project-three">
+                    <div class="title">My Favourite Movies' Listing</div>
+                    <img src="./img/portfolio-3.PNG" alt="project three">
+                    <ol>
+                        <li>Some Stacks: Laravel+blades+JavaScript</li>
+                        <li>Consumption fake API-REST</li>
+                        <li>CSS styling</li>
+                        <li>Connected to external links</li>
+                    </ol>
+                    <button class="btn">See more</button>
+                </div>
+            </section>
+            <div class="video-box">
+                <h2>Inspirational Women Developer of the month:</h2>
+                <iframe id="video" width="420" height="345" src="https://www.youtube.com/embed/4QoU1omIoX8" frameborder="0"
+                allowfullscreen></iframe>
+            </div>
+            <section id="contact">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <h2 class="contact-title light">Contact me</h2>
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        placeholder="Enter your name"
+                        required
+                        />
+                    </div>
+                    <div class="form-field">
+                        <label for="name">Surname</label>
+                        <input
+                        name="surname"
+                        id="surname"
+                        type="text"
+                        placeholder="Enter your surname"
+                        required
+                        />
+                    </div>
+                    <div class="form-field">
+                        <label for="name">Email</label>
+                        <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email address"
+                        required
+                        />
+                    </div>
+                    <div class="form-field">
+                        <label for="name">How can I help you?</label>
+                        <textarea 
+                        name="textarea" 
+                        id="textarea" 
+                        cols="30" rows="10"
+                        placeholder="Enter your query" 
+                        required></textarea>
+                    </div>
+                    <input id="submit" type="submit" value="Submit" class="btn" />
+                </form>
+            </section>
+        </div>
         </div>
     </main>
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2023, Noa Trujillo</span>
+    </footer>
 </body>
 </html>
