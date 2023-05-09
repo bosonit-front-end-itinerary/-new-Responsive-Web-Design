@@ -6,12 +6,10 @@ body{
     background-color: rgb(210, 156, 228);
     font-family: 'Merriweather', serif;
     color: linen;
-    margin:0;
+    margin: 0;
 }
 
-main {
-    padding: 20px;
-}
+
 
 .light {
     animation: glow 1s ease-in-out infinite alternate;
@@ -27,6 +25,12 @@ main {
 }
 }
 
+#title{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(177, 59, 201);
+}
+
 /*STARTS HEADER*/
 
 header {
@@ -36,7 +40,6 @@ header {
     justify-content: space-between;
     padding-top: 15px;
     background: linear-gradient(rgb(143, 30, 187),rgb(210, 156, 228)60%);
-    background-color: 
 }
 
 .header-left{
@@ -80,7 +83,6 @@ li{
     font-weight: 450;
     color: rgb(74, 11, 91);
     transition: 0.5s ease-in-out;
-    
 }
 
 #nav-bar li .nav-link:hover {
@@ -89,39 +91,40 @@ li{
 
 /*STARTS ABOUT SECTION*/
 
-.welcome.container {
-    border: 1px solid green;
+.about-container {
     display: flex;
     align-items: center;
-    height: 20rem;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.welcome.intro {
-    border: 1px solid yellow;
+.about.intro {
     width: 160px;
     position: relative;
-    top: 130px;
-    left: 20%;
+    left: 10%;
 }
 
-.welcome p {
-    border: 1px solid pink;
-    width: 500px;
+.about-text {
+    width: 300px;
     text-align: justify;
     position: relative;
-    left: 20%;
+    left: 10%;
+    margin-right: 120px;
 }
 
-.welcome > img {
+.about > img {
     border: 1px solid pink;
     position: relative;
-    height: 15rem;
+    right: -10%;
+    height: 8rem;
+    width: auto;
 }
 
 /*STARTS PORTFOLIO SECTION*/
 
-#projects {
+#portfolio {
     display: flex;
+    justify-content: center;
 }
 
 .project {
@@ -163,14 +166,16 @@ ol > li {
     display: block;
     color: #444;
     font-size: 0.8rem;
+    padding-bottom: 10px;
 }
 
 /*STARTS RECOMMENDED SECTION*/
 
 .video-box {
     display: block;
-    margin-left: auto;
-    margin-right: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 /*STARTS CONTACT SECTION*/
@@ -178,6 +183,7 @@ ol > li {
 #contact {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 form {
