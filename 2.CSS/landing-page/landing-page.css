@@ -1,11 +1,8 @@
-/* :root{
-} */
-
 body {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
     min-height: 100vh;
-
     background-color: rgb(210, 156, 228);
     font-family: 'Merriweather', serif;
     color: linen;
@@ -87,10 +84,6 @@ li{
 
 #nav-bar li .nav-link:hover {
     color: rgb(241, 206, 249);
-}
-
-#burger-menu{
-    display: none;
 }
 
 /*STARTS ABOUT SECTION*/
