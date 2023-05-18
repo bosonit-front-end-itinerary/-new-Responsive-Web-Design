@@ -18,10 +18,10 @@ console.log(arrNames[2]);
 //exercise 8
 //exercise 9
 //exercise 10
-const poetry = { POET: 'Sylvia Plath', LasTPoEm: 'Edge'};
-const myObjLowercase = toLowercaseKeys(poetry);
+// const poetry = { POET: 'Sylvia Plath', LasTPoEm: 'Edge'};
+// const myObjLowercase = toLowercaseKeys(poetry);
 
-console.log(myObjLowercase);
+// console.log(myObjLowercase);
 
 
 //exercise 11
