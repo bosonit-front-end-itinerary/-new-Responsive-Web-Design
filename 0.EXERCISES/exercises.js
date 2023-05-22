@@ -7,7 +7,7 @@ const arrNames = [
     {id: 5, name: 'Lala'}
 ]
 
-console.log(arrNames[2]);
+arrNames.map((res,pos)=>console.log(res,pos))
 
 //exercise 2
 //exercise 3
