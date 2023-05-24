@@ -25,3 +25,27 @@ saludar('Noa', 31, false, 'Spain');
 saludar2()
 saludarFlecha()
 saludarFlecha2('Miles')
+
+
+//.......................
+
+
+//retorno de las funciones
+
+//opcion 1
+function sumar( a, b ) {
+    return a + b;
+}
+
+console.log( sumar(1, 2) ) //toma los parámetros de la función a,b para operar en el return con los valores que se 
+
+//opcion 2
+const sumar2 = ( a, b ) => {
+    return a + b;
+}
+
+console.log( sumar2(1, 2) )
+
+//opcion 3
+const sumar3 = ( a, b ) => a + b; //si nuestra funcion solo tiene dentro un return podemos simplificarla de esta manera
+console.log( sumar3(1, 2) )
