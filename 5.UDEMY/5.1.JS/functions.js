@@ -49,3 +49,19 @@ console.log( sumar2(1, 2) )
 //opcion 3
 const sumar3 = ( a, b ) => a + b; //si nuestra funcion solo tiene dentro un return podemos simplificarla de esta manera
 console.log( sumar3(1, 2) )
+
+
+//........................
+
+//funcion para conseguir numero aleatorio
+
+//opcion 1
+function getAleatorio(){
+  return Math.random();
+}
+console.log( getAleatorio() );
+
+//opcion 2 y más utilizada -menos código- para conseguir numero aleatorio
+const getAleatorio2 = () => Math.random();
+
+console.log( getAleatorio2() );
