@@ -10,10 +10,10 @@ const persona = crearPersona( 'Noa', 'Trujillo');
 console.log(persona);
 
 //funcion editada y optimizada. Los segundos valores de nombre y apellido no son parametros, son keys
-const crearPersona = ( nombre, apellido ) => ({nombre, apellido});
+const crearPersona1 = ( nombre, apellido ) => ({nombre, apellido});
 
-const persona = crearPersona( 'Noa', 'Trujillo');
-console.log(persona);
+const persona1 = crearPersona1( 'Noa', 'Trujillo');
+console.log(persona1);
 
 //
 function imprimeArgumentos(){
