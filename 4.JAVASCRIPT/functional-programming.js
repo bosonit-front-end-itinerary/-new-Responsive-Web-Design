@@ -31,3 +31,12 @@ console.log(
     tea4GreenTeamFCC,
     tea4BlackTeamFCC
 );
+
+//filter + map method together
+
+    //The variable watchList holds an array of objects with information on several movies. Use a combination of filter and map on watchList to assign a new array of objects with only title and rating keys. The new array should only include objects where imdbRating is greater than or equal to 8.0. Note that the rating values are saved as strings in the object and you may need to convert them into numbers to perform mathematical operations on them.
+const filteredList = watchList
+    .filter(movie => movie.imdbRating >= 8.0)
+    .map(movie => ({ title: movie["Title"], rating: movie["imdbRating"] }));
+// Only change code above this line
+console.log(filteredList);
