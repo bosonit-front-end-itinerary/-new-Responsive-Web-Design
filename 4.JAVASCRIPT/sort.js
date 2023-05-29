@@ -30,3 +30,17 @@ return arr.sort(function(a, b) {
 
 reverseAlpha(['l', 'h', 'z', 'b', 's']);
   //Esto devolvería el valor de ['z', 's', 'l', 'h', 'b'].
+
+
+//..................
+
+
+//Return a Sorted Array Without Changing the Original Array
+let newArray1 = arr.concat();
+return newArray.sort(function(a, b) {
+        return a - b;
+    });
+
+
+let newArray2 = arr.concat();
+return newArray.sort((a, b) => a - b);
