@@ -3,4 +3,4 @@ function telephoneCheck(str) {
     return regex.test(str);
 }
 
-console.log(telephoneCheck("gjhgf"));
+console.log(telephoneCheck("gjhgf")); //false
