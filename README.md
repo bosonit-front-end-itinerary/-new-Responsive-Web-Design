@@ -1,5 +1,5 @@
 <div style="heigth:auto; display:flex; flex-wrap: wrap; justify-content:center; padding:1rem">
-<img style="width:700px"; src="file:///C:/Users/noa.trujillo/OneDrive%20-%20Bosonit/Documentos/bosonit-noa/fotos/bosonit-banner.png" alt="Bosonit banner"/>
+<img style="width:900px"; src="https://github.com/bosonit-front-end-itinerary/Responsive-Web-Design/assets/116545642/5ca5a4ed-6f21-496f-af6f-c3faa3f97da1" alt="Bosonit banner"/>
 </div>
 
 <h2>1. Course description:</h2>
